@@ -2,8 +2,8 @@
 name: tlc-screens-judge
 description: Independent screens judge (the screens sub-agent) of tlc-spec-lean and tlc-spec-driven. Compares each `<capture>.running.png` picture with its binding capture, item by item, and writes `screens.md`. It does not read the app's code, open the app or take pictures. Dispatch it when a criterion cites a capture (design, Figma, screenshot); round 2 resumes this same agent. Not for UX review without a reference design, nor for PR diffs.
 tools: Read, Write
-model: sonnet
-effort: xhigh
+model: opus
+effort: medium
 ---
 
 # Screens judge (TLC)

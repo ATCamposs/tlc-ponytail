@@ -2,8 +2,8 @@
 name: ponytail-reviewer
 description: Independent quality review of a diff with the Ponytail skill `ponytail:ponytail-review` (bugs, risk, real load, missing tests, speed and what to cut). Dispatch it at the close of a tlc-spec-lean or tlc-spec-driven feature, in the same turn and in parallel with `tlc-verifier`, or to review a diff outside the session that wrote it. It lists findings and edits no code. It is not the Verifier (obligations and mutations: `tlc-verifier`). Needs the Ponytail plugin.
 tools: Read, Write, Bash, Skill
-model: sonnet
-effort: xhigh
+model: opus
+effort: medium
 ---
 
 # Ponytail reviewer

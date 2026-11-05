@@ -2,8 +2,8 @@
 name: tlc-verifier
 description: Independent Verifier (author != verifier) of a feature built with tlc-spec-lean or tlc-spec-driven. Dispatch it after `check_proofs.py` has run, always, without waiting to be asked. It follows `verify.md` (lean) or `validate.md` (driven), injects mutations, tries examples nobody named, and writes `verification.md` and `mutations.json`. It does not review PR diffs and does not edit product code.
 tools: Read, Write, Bash, Skill
-model: sonnet
-effort: xhigh
+model: opus
+effort: medium
 ---
 
 # Verifier (TLC)

@@ -78,8 +78,9 @@ subagent through except the three above.
 
 ## Models and language
 
-The three agents run on `sonnet` with `effort: xhigh`, set in their frontmatter in
-[`agents/`](agents). They answer in the language of the prompt that dispatched them.
+The three agents run on `opus` (Opus 5.5) with `effort: medium`, set in their frontmatter in
+[`agents/`](agents). In our use, that costs less than Sonnet 5.5 at `xhigh` and returns about the
+same results. They answer in the language of the prompt that dispatched them.
 
 ## Updating the TLC skills
 
