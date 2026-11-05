@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tlc-ponytail",
+  "description": "Tech Leads Club spec skills with an independent Ponytail review at feature close.",
+  "owner": {
+    "name": "ATCamposs",
+    "url": "https://github.com/ATCamposs"
+  },
+  "plugins": [
+    {
+      "name": "tlc-ponytail",
+      "description": "tlc-spec-lean and tlc-spec-driven, plus the Verifier, screens judge and Ponytail reviewer agents that close each feature.",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}
