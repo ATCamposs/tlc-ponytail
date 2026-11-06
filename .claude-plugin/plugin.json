@@ -1,7 +1,7 @@
 {
   "name": "tlc-ponytail",
-  "version": "0.1.1",
-  "description": "Tech Leads Club spec skills (tlc-spec-lean, tlc-spec-driven) with an independent Verifier, a screens judge and a Ponytail review at feature close.",
+  "version": "0.2.0",
+  "description": "Tech Leads Club spec skills (tlc-spec-lean, tlc-spec-driven) with a grill-me interview before every plan decision, an independent Verifier, a screens judge and a Ponytail review at feature close.",
   "author": {
     "name": "ATCamposs",
     "url": "https://github.com/ATCamposs"
@@ -9,6 +9,17 @@
   "homepage": "https://github.com/ATCamposs/tlc-ponytail",
   "repository": "https://github.com/ATCamposs/tlc-ponytail",
   "license": "MIT",
-  "keywords": ["spec-driven", "tech-leads-club", "ponytail", "verifier", "code-review"],
-  "hooks": ["./hooks/claude-hooks.json"]
+  "keywords": [
+    "spec-driven",
+    "tech-leads-club",
+    "ponytail",
+    "verifier",
+    "code-review",
+    "grill-me",
+    "interview",
+    "glossary"
+  ],
+  "hooks": [
+    "./hooks/claude-hooks.json"
+  ]
 }

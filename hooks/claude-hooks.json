@@ -6,7 +6,19 @@
         "hooks": [
           {
             "type": "command",
-            "command": "cat \"${CLAUDE_PLUGIN_ROOT}/hooks/tlc-close.md\"",
+            "command": "cat \"${CLAUDE_PLUGIN_ROOT}/hooks/tlc-plan.md\" \"${CLAUDE_PLUGIN_ROOT}/hooks/tlc-close.md\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Skill",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/grill_on_tlc.py\"",
             "timeout": 5
           }
         ]

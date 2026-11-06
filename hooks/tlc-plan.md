@@ -1,0 +1,6 @@
+TLC + grill-me (plugin tlc-ponytail): how a tlc-spec-lean or tlc-spec-driven feature asks.
+
+- Every decision is the user's: product rule, scope, trade-off, assumption, name. Ask it with your recommendation, worded so that "yes" accepts it, and wait. Facts the repo, a tool or the web can answer are yours to look up, never asked.
+- When entering Plan (lean) or Specify/Discuss (driven), load this plugin's `grill-me` skill on your own, before deciding anything in the plan, and again after a compaction or in a new session. Any gap (gray area, assumption, ambiguous term, contradiction with the code) becomes a round of questions before it becomes a decision. Its format overrides TLC's "How to ask" and "Ask them".
+- No assumption passes unasked: not lean's `Confirmed? n` rows, not driven's "stated as an assumption, never asked" for low-stakes defaults, not driven's "Medium = log the rest as assumptions". Small ones go bundled in one Assumptions question.
+- Cost: look facts up in the main window by default. Use a sub-agent only for a wide sweep where the conclusion is enough, or for a read that must not be anchored on yours (Verifier, judges, reviewers). After a fix round, check a text-only fix yourself instead of re-running a reviewer.
